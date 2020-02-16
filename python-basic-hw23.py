@@ -59,7 +59,7 @@ while not is_game_over:
                 r = 10 + 5 * random.randint(0, 10)
                 image_x = random.randint(r, 800 - r)
                 image_y = random.randint(r, 600 - r)
-                pygame.draw.circle(screen, color_red,(image_x,image_y), r, 0)               
+                pygame.draw.circle(screen, color_red,(image_x,image_y), 50, 0)               
 
 
     screen.fill([255, 255, 255])
